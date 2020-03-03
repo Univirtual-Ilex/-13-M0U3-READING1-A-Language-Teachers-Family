@@ -63,7 +63,6 @@ const App = () => {
       </Fondo>
       <Modal w='30'>
       </Modal>
-
     </>
 
   ) // La etiqueta <> </> Hace referencia a los fragments en react

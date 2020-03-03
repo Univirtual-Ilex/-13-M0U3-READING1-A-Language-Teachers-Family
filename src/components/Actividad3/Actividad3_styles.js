@@ -12,6 +12,17 @@ li{
     margin:0.5em 0;
 }
 
+.baseWord {
+    color: ${Ilex.color_gris};
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0.6em 0;
+}
+
+.wordsContainer {
+    text-align: center
+}
+
 `
 export const Olist = styled.ol`
     color:${Ilex.textos};
