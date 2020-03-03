@@ -6,10 +6,10 @@ import styles from './InputWords_styles'
 import { Input } from './InputWords_styles'
 
 // Componente base
-const InputWords_base = ({w,m,...props}) => {
+const InputWords_base = ({w,m,p, ...props}) => {
     return (
         <div {...props}>
-           <Input className='btn-clean' />
+           <Input className='btn-clean input-words' />
         </div>
     )
 }
