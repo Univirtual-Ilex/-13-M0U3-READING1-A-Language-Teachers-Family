@@ -7,12 +7,12 @@ import Ilex from '../../App/variables'
 import ProgressBar from '../ProgressBar'
 import MainTitle from '../MainTitle'
 import InputWords from '../InputWords'
-
+import ButtonCheck from '../ButtonCheck'
 // styles from styled
 import { ProgressbarContainer } from '../Actividad1/Actividad_styles'
-import {Olist} from './Actividad3_styles'
-import {Item}from './Actividad3_styles'
-import ButtonModal from '../ButtonModal'
+// import {Olist} from './Actividad3_styles'
+// import {Item}from './Actividad3_styles'
+// import ButtonModal from '../ButtonModal'
 import { IRow, ICol } from '../Grid'
 
 
@@ -29,25 +29,15 @@ const Actividad3_base = ({staticContext, ...props}) => {
 
             <IRow>                
                 <ICol py={1.5}>
-                    <Olist>
-                        <Item> The  person who writes the message is  <InputWords />.</Item>
-                        <Item> The person who sends the message is   <InputWords /> </Item>
-                        <Item> The student is in <InputWords /> semester </Item>
-                        <Item> The student is studying  <InputWords /> </Item>
-                        <Item> The student needs to leave  the university campus because he has classes at   <InputWords  w={10} /> </Item>
-                        <Item> He has to do a lot of <InputWords/></Item>
-                        <Item> The majority of the students’ classmates are <InputWords /> </Item>
-                        <Item> The most difficult subject for the student is  <InputWords /> </Item>
-                        <Item> The student feels <InputWords /> with his program.</Item>
-                        <Item> The student wants to contribute to <InputWords /></Item>
-                    </Olist>
-
-                    <div className='contenedorButton'>
-                    <ButtonModal>Ready</ButtonModal> 
-                    </div>
+                    <InputWords />
 
                 </ICol>
             </IRow>
+
+            {/* botón footer */}
+            <ICol mt={7.5}>
+                <ButtonCheck>NEXT</ButtonCheck>
+            </ICol>
 
         </Container>
 

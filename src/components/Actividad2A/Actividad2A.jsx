@@ -67,7 +67,7 @@ const Actividad2A_base = ({staticContext, ...props}) => {
             </IRow>
             {/* Fila */}
 
-            {/* Button footer */}
+            {/* botón footer */}
             <ICol mt={7.5}>
                 <ButtonCheck>NEXT</ButtonCheck>
             </ICol>
