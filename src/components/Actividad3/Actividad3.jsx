@@ -102,7 +102,7 @@ const Actividad3_base = ({staticContext, ...props}) => {
                 setOk(false)
                 setModal(true)
             }
-            if(count == 8){
+            if(count == 24){
                 setErr(false)
                 setOk(true)
                 setModal(true)
