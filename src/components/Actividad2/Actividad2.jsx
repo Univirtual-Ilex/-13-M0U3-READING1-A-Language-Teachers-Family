@@ -52,7 +52,7 @@ const Actividad2_base = ({staticContext, ...props}) => {
 
             </IRow>
             <ICol mt={5.5}>
-            <ButtonCheck>NEXT</ButtonCheck>
+            <ButtonCheck link={'/actividad2a'} >NEXT</ButtonCheck>
             </ICol>
 
 
