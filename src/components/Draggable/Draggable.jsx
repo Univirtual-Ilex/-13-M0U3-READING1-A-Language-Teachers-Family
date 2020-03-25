@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import styles from './Draggable_styles'
-import BocinaButton from '../BocinaButton'
+import ButtonAudio from '../ButtonAudio'
 import { gsap, TweenLite } from 'gsap'
 import { Draggable} from 'gsap/Draggable'
 
@@ -61,7 +61,7 @@ const Draggable_base = React.forwardRef(({ areaDrag, audio, name, target, elemen
     return (
         <div {...props} ref={itemDraggable}>
             <div className='draggable' >
-            <BocinaButton audio={audio} />
+            <ButtonAudio src={audio} />
             <span>{ name }</span>
             </div>
 

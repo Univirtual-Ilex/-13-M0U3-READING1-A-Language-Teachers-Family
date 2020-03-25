@@ -18,7 +18,7 @@ import ButtonCheck from '../ButtonCheck'
 // Componente base
 const Actividad2_base = ({staticContext, ...props}) => {
     return (
-        <Container bgImage='./src/bg_actividad1.png' h={46} w={80} {...props}>
+        <Container bgImage='./src/bg_actividad1.png' h={46} w={75} {...props}>
 
         {/*}    <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='After reading, answer which of the following answers to the questions is correct' />
@@ -51,8 +51,8 @@ const Actividad2_base = ({staticContext, ...props}) => {
                 </ICol>
 
             </IRow>
-            <ICol mt={5.5}>
-            <ButtonCheck link={'/actividad2a'} >NEXT</ButtonCheck>
+            <ICol mt={5.5} className="next">
+            <ButtonCheck ><a href="/actividad2a">NEXT</a></ButtonCheck>
             </ICol>
 
 

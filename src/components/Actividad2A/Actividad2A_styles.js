@@ -18,6 +18,9 @@ const styles = css`
 
     .bloque-controles{
     }
+    .check{
+        margin-top: 8em;
+    }
 `
 
 export default styles

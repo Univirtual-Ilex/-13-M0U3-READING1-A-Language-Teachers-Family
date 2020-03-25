@@ -43,6 +43,16 @@ const styles = css`
             }
         }
     }
+    a{
+        text-decoration: none;
+        &:hover{
+            color: white;
+        }
+       
+    }
+    .next{
+        margin-top: 6em;
+    }
 `
 
 export default styles

@@ -122,7 +122,7 @@ const Actividad2A_base = ({staticContext, ...props}) => {
             {/* Fila */}
 
             {/* botón footer */}
-            <ICol mt={7.5}>
+            <ICol mt={7.5} className="check">
                 <ButtonCheck onClick={checkActivity}>CHECK</ButtonCheck>
             </ICol>
 
