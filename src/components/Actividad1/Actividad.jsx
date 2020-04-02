@@ -47,7 +47,7 @@ const Actividad_base = ({staticContext, ...props}) => {
             
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='Drag the words to the appropriate box, plural, female or male.' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad1'} } />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.reload()} } />
             </UiButtonsContainer>
 
             <ProgressbarContainer>
@@ -75,7 +75,7 @@ const Actividad_base = ({staticContext, ...props}) => {
                 <Area title='Male' data-target="area_3" id="area_3" ref={area_3} />
             </AreasContainer>
 
-            <Modal visible={comprobarPrueba()} ok w={25} nxtUrl='/actividad2' />
+            <Modal visible={comprobarPrueba()} ok w={25} nxtUrl='#/actividad2' />
         </Container>
     )
 

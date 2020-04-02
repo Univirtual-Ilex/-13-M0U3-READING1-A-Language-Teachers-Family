@@ -118,7 +118,7 @@ const Actividad3_base = ({staticContext, ...props}) => {
             </ProgressbarContainer>
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='From the previous text complete the information below' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad1'} } />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.reload()} }/>
             </UiButtonsContainer>
             <div className='container-content'>
                 <MainTitle color={Ilex.violeta2}> COMPLETE THE CHART WITH THE CORRECT INFORMATION FROM THE TEXT. </MainTitle>
@@ -188,7 +188,7 @@ const Actividad3_base = ({staticContext, ...props}) => {
                 <ButtonCheck onClick={checkActivity}>Check</ButtonCheck>
             </ICol>
 
-            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'/actividad3'} finished={ok} />
+            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'#/actividad3'} finished={ok} />
         </Container>
 
     )
