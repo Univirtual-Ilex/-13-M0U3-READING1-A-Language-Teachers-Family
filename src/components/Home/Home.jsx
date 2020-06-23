@@ -16,7 +16,7 @@ const Home_base = function ({ staticContext, ...props}) { // se le pasan las pro
                             <h1> A language teacher's family </h1>
                             <p>
                             This activity count with 3 parts. Read, organize and complete the exercises.
-                            <span className='negrilla'> <br/> <br/> ¡Time to practice your reading skill! </span></p>
+                            <span className='negrilla'> <br/> <br/> Time to practice your reading skill! </span></p>
                             <ButtonLink to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>

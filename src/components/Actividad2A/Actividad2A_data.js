@@ -11,7 +11,7 @@ const data = [
     },
     {
         id:3,
-        answer: 'andres',
+        answer: 'juan pablo',
         right: 0  
     },
     {
@@ -21,17 +21,17 @@ const data = [
     },
     {
         id:5,
-        answer: 'juan',
+        answer: 'andres',
         right: 0 
     },
     {
         id:6,
-        answer: 'cristian',
+        answer: 'paulo',
         right: 0 
     },
     {
         id:7,
-        answer: 'pablo',
+        answer: 'cristian',
         right: 0
     },
     {

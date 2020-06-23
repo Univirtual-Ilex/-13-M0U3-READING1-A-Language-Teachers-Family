@@ -21,6 +21,9 @@ const styles = css`
     .check{
         margin-top: 8em;
     }
+    .tree{
+        margin-left: -25em;
+    }
 `
 
 export default styles
