@@ -133,7 +133,7 @@ const Actividad2A_base = ({staticContext, ...props}) => {
                         </ICol>
                     </IRow>
                 </Tooltip>
-            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'/actividad2a'} nxtUrl={'/actividad3'} />
+            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'#/actividad2a'} nxtUrl={'#/actividad3'} />
         </Container>
 
     )
